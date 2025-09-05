@@ -47,7 +47,7 @@ print(shopping_list)
 # Generate an image using DALL-E 3
 response = client.images.generate(
     model="dall-e-3",
-    prompt=shopping_list[1],
+    prompt=shopping_list[2],
     size="1024x1024",
     quality="standard",
     n=1
